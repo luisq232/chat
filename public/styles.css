@@ -1,0 +1,20 @@
+:root { font-family: system-ui, Arial; }
+body { margin: 0; background: #0f172a; color: #e2e8f0; display:flex; min-height:100vh; align-items:center; justify-content:center; }
+.hidden { display: none; }
+.card { background:#111827; padding:2rem; border-radius:1rem; box-shadow:0 10px 30px rgba(0,0,0,.4); width:min(90vw, 420px); }
+.card h1 { margin-top:0; }
+.card input { width:100%; padding:.8rem; border-radius:.6rem; border:1px solid #334155; background:#0b1220; color:#e2e8f0; }
+.card button { margin-top:1rem; width:100%; padding:.9rem; border:0; border-radius:.6rem; background:#22c55e; color:#06140a; font-weight:700; cursor:pointer; }
+
+#chat { width:min(95vw, 900px); margin:2rem auto; }
+.bar { display:flex; gap:.6rem; align-items:center; padding:.6rem; background:#0b1220; border:1px solid #1f2937; border-radius:.6rem; }
+.bar h2 { margin:0; }
+#typing { margin-left:auto; font-size:.9rem; opacity:.8; }
+
+#messages { list-style:none; padding:0; margin:1rem 0; display:flex; flex-direction:column; gap:.5rem; max-height:55vh; overflow:auto; }
+#messages li { background:#0b1220; border:1px solid #1f2937; padding:.6rem .8rem; border-radius:.6rem; }
+#messages .server { opacity:.8; font-style:italic; }
+
+#form { position:sticky; bottom:0; }
+#form input { flex:1; padding:.8rem; border-radius:.6rem; border:1px solid #334155; background:#0f172a; color:#e2e8f0; }
+#form button { padding:.8rem 1.1rem; border:0; border-radius:.6rem; background:#60a5fa; color:#06140a; font-weight:700; cursor:pointer; }
